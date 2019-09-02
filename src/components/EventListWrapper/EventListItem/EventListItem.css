@@ -1,0 +1,51 @@
+.eventListItem__wrapper {
+    list-style: none;
+    margin: 0 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.eventListItem__image {
+    flex-shrink: 0;
+    margin-right: 50px;
+    height: 200px;
+    width: auto;
+}
+
+.eventListItem__name {
+    color: #d2691e;
+    font-weight: 700;
+}
+
+.eventListItem__details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eventListItem__places {
+    font-weight: 500;
+    color: #d29962;
+}
+
+.eventListItem__date {
+    font-weight: 500;
+    color: #d29962;
+}
+
+.eventListItem__price {
+    font-weight: 500;
+    color: #d29962;
+}
+
+.eventListItem__description {
+    margin: 10px 0 20px;
+    font-weight: 300;
+}
+
+.eventListItem__button {
+    padding: 7px 12px;
+    background: none;
+    border: 2px solid #d2691e;
+    color: #d2691e;
+    font-weight: 500;
+}
