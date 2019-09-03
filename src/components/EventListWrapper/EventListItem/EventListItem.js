@@ -2,13 +2,13 @@ import React from 'react';
 import './EventListItem.css';
 
 const EventListItem = ({
-    image,
-    name,
-    places,
-    data,
-    price,
-    description
-                       }) => (
+        image,
+        name,
+        places,
+        data,
+        price,
+        description
+    }) => (
     <li className="eventListItem__wrapper">
         <img src={image} className="eventListItem__image" alt={name}/>
         <div>
